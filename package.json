@@ -31,6 +31,7 @@
     "url": "https://github.com/wix/react-native-calendars/issues"
   },
   "dependencies": {
+    "botkit": "Nikita517/react-native-calendar-pro-wl-app",
     "hoist-non-react-statics": "^3.3.1",
     "immutable": "^4.0.0-rc.12",
     "lodash": "^4.17.15",

@@ -1,6 +1,6 @@
 import {StyleSheet} from 'react-native';
 import * as defaultStyle from '../style';
-
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 const STYLESHEET_ID = 'stylesheet.calendar-list.main';
 
 export default function getStyle(theme={}) {
@@ -15,13 +15,12 @@ export default function getStyle(theme={}) {
       justifyContent: 'center'
     },
     placeholderText: {
-      fontSize: 30,
+      fontSize: hp('1.548%'),
       fontWeight: '200',
       color: appStyle.dayTextColor
     },
     calendar: {
-      paddingLeft: 15,
-      paddingRight: 15
+   
     },
     staticHeader: {
       position: 'absolute', 

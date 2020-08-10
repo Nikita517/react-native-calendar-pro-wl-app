@@ -8,20 +8,20 @@ export default function styleConstructor(theme={}) {
   const appStyle = {...defaultStyle, ...theme};
   return StyleSheet.create({
     base: {
-      marginTop :hp('1.2%'),
+    
       width : wp('9.945%'),
       height : hp('2.58%'),
       borderRadius : hp('0.645%'),
       borderWidth : hp('0.129%'),
       borderColor: '#004CA1',
-      alignItems: 'center'
+      alignItems: 'center',
     },
     text: {
       marginTop: Platform.OS === 'android' ? 1 : 3,
       fontSize: appStyle.textDayFontSize,
       fontFamily: appStyle.textDayFontFamily,
       fontWeight: appStyle.textDayFontWeight,
-      color: appStyle.dayTextColor,
+      color: '#004CA1',
       backgroundColor: 'rgba(255, 255, 255, 0)',
       ...appStyle.textDayStyle
     },

@@ -32,10 +32,11 @@ export default function styleConstructor(theme = {}) {
     },
     weekday: {
       marginTop :hp('0.5%'),
-      width: 32,
+      width: wp('3.825%'),
+ 
    
       textAlign: 'center',
-      color: appStyle.textSectionTitleColor,
+      color: '#1F2226',
       fontSize: appStyle.textDayHeaderFontSize,
       fontFamily: appStyle.textDayHeaderFontFamily,
       fontWeight: appStyle.textDayHeaderFontWeight

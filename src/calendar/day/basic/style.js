@@ -15,6 +15,7 @@ export default function styleConstructor(theme={}) {
       borderWidth : hp('0.129%'),
       borderColor: '#004CA1',
       alignItems: 'center',
+      paddingRight : wp('1%'),
     },
     text: {
       marginTop: Platform.OS === 'android' ? 1 : 3,

@@ -36,7 +36,7 @@ export default function styleConstructor(theme = {}) {
  
    
       textAlign: 'center',
-      color: '#1F2226',
+      color: '#000000',
       fontSize: appStyle.textDayHeaderFontSize,
       fontFamily: appStyle.textDayHeaderFontFamily,
       fontWeight: appStyle.textDayHeaderFontWeight
